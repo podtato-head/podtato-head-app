@@ -11,7 +11,7 @@ images:
 
 # keep ports in sync with podtato-services/main/pkg/provider.go
 frontend:
-  tag: "v0.3.1" #x-release-please-version
+  tag: "v0.3.2" #x-release-please-version
   serviceType: ClusterIP
   servicePort: 8080
   replicaCount: 1
@@ -19,7 +19,7 @@ frontend:
   #   - name: PODTATO_PART_NUMBER
   #     value: "01"
 hat:
-  tag: "v0.3.1" #x-release-please-version
+  tag: "v0.3.2" #x-release-please-version
   serviceType: ClusterIP
   servicePort: 8080
   replicaCount: 1
@@ -27,7 +27,7 @@ hat:
   #   - name: PODTATO_PART_NUMBER
   #     value: "01"
 leftLeg:
-  tag: "v0.3.1" #x-release-please-version
+  tag: "v0.3.2" #x-release-please-version
   serviceType: ClusterIP
   servicePort: 8080
   replicaCount: 1
@@ -35,7 +35,7 @@ leftLeg:
   #   - name: PODTATO_PART_NUMBER
   #     value: "01"
 leftArm:
-  tag: "v0.3.1" #x-release-please-version
+  tag: "v0.3.2" #x-release-please-version
   serviceType: ClusterIP
   servicePort: 8080
   replicaCount: 1
@@ -43,7 +43,7 @@ leftArm:
   #   - name: PODTATO_PART_NUMBER
   #     value: "01"
 rightLeg:
-  tag: "v0.3.1" #x-release-please-version
+  tag: "v0.3.2" #x-release-please-version
   serviceType: ClusterIP
   servicePort: 8080
   replicaCount: 1
@@ -51,7 +51,7 @@ rightLeg:
   #   - name: PODTATO_PART_NUMBER
   #     value: "01"
 rightArm:
-  tag: "v0.3.1" #x-release-please-version
+  tag: "v0.3.2" #x-release-please-version
   serviceType: ClusterIP
   servicePort: 8080
   replicaCount: 1
