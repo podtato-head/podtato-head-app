@@ -6,7 +6,7 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/jarcoal/httpmock v1.3.0
 	github.com/prometheus/client_golang v1.14.0
-	github.com/pterm/pterm v0.12.57
+	github.com/pterm/pterm v0.12.58
 	github.com/urfave/cli/v3 v3.0.0-alpha2
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -19,7 +19,7 @@ require (
 	github.com/containerd/console v1.0.3 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/gookit/color v1.5.2 // indirect
+	github.com/gookit/color v1.5.3 // indirect
 	github.com/lithammer/fuzzysearch v1.1.5 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
@@ -31,7 +31,7 @@ require (
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
+	golang.org/x/term v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
