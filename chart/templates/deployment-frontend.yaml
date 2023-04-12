@@ -24,6 +24,7 @@ spec:
       labels:
         {{- include "podtato-head.selectorLabels" . | nindent 8 }}
         app.kubernetes.io/component: {{ printf "%s-%s" (include "podtato-head.fullname" .) $componentName }}
+        role: frontend
     spec:
       {{- with .Values.images.pullSecrets }}
       imagePullSecrets:

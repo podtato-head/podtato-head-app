@@ -30,11 +30,12 @@ The installation can be customized by changing the following parameters via
 | `images.repositoryDirname`      | Prefix for image repos                                          | `ghcr.io/podtato-head`       |
 | `images.pullPolicy`             | Podtato Head Container pull policy                              | `IfNotPresent`               |
 | `images.pullSecrets`            | Podtato Head Pod pull secret                                    | ``                           |
-| `<service>.repositoryBasename`  | Leaf part of name of image repo for <service>                   | `frontend`, `hat`, etc.         |
+| `<service>.repositoryBasename`  | Leaf part of name of image repo for <service>                   | `frontend`, `hat`, etc.      |
 | `<service>.tag`                 | Tag of image repo for <service>                                 | `0.1.0`                      |
 | `<service>.serviceType`         | Service type for <service>                                      | `LoadBalancer` for main      |
 | `<service>.servicePort`         | Service port for <service>                                      | `9000`-`9005`                |
 | `<service>.env`                 | Add "env:" entries on Deployments (ex: PODTATO_PART_NUMBER)     | `[]`                         |
+| `networkPolicy.enabled`         | Enable the NetworkPolicy                                        | `false`                      |
 | `serviceAccount.create`         | Whether or not to create dedicated service account              | `true`                       |
 | `serviceAccount.name`           | Name of the service account to use                              | `default`                    |
 | `serviceAccount.annotations`    | Annotations to add to a created service account                 | `{}`                         |

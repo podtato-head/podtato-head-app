@@ -59,6 +59,12 @@ rightArm:
   #   - name: PODTATO_PART_NUMBER
   #     value: "01"
 
+# Currently, the network policy restricts ingress traffic to
+# the backend components (hat, left-leg, right-leg, left-arm, right-arm)
+# by allowing traffic from the frontend component only.
+networkPolicy:
+  enabled: false
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true

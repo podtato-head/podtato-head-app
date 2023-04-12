@@ -18,6 +18,7 @@ spec:
     metadata:
       labels:
         app: podtato-head-frontend
+        role: frontend
     spec:
       containers:
       - name: podtato-head-frontend
@@ -72,6 +73,7 @@ spec:
     metadata:
       labels:
         app: podtato-head-left-arm
+        role: backend
     spec:
       containers:
         - name: podtato-head-left-arm
@@ -117,6 +119,7 @@ spec:
     metadata:
       labels:
         app: podtato-head-right-arm
+        role: backend
     spec:
       containers:
         - name: podtato-head-right-arm
@@ -162,6 +165,7 @@ spec:
     metadata:
       labels:
         app: podtato-head-left-leg
+        role: backend
     spec:
       containers:
         - name: podtato-head-left-leg
@@ -207,6 +211,7 @@ spec:
     metadata:
       labels:
         app: podtato-head-right-leg
+        role: backend
     spec:
       containers:
         - name: podtato-head-right-leg
@@ -252,6 +257,7 @@ spec:
     metadata:
       labels:
         app: podtato-head-hat
+        role: backend
     spec:
       containers:
         - name: podtato-head-hat
@@ -371,6 +377,23 @@ spec:
         port: 8080
         protocol: TCP
     type: ClusterIP
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-ingress-only-from-frontend
+  namespace: podtato-kubectl
+spec:
+  podSelector:
+    matchLabels:
+      role: backend
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: frontend
 
 ---
 apiVersion: v1
