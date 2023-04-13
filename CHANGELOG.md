@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.3.2](https://github.com/podtato-head/podtato-head-app/compare/v0.3.1...v0.3.2) (2023-04-12)
+
+
+### Features
+
+* add NetworkPolicy to helm chart ([1afea86](https://github.com/podtato-head/podtato-head-app/commit/1afea86990db5edd5463ce1806288a6f381142e0))
+* add NetworkPolicy to manifest ([04b7cf1](https://github.com/podtato-head/podtato-head-app/commit/04b7cf16ecd5533cb8427a1c95434862615f6c9c))
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/pterm/pterm to v0.12.56 ([04948ec](https://github.com/podtato-head/podtato-head-app/commit/04948ec072bc185f5dbe5ae00597c776d0a6fc6f))
+* **deps:** update module github.com/pterm/pterm to v0.12.57 ([0aca5d8](https://github.com/podtato-head/podtato-head-app/commit/0aca5d872bc718adf17d33d41f70dbcfd090478b))
+* **deps:** update module github.com/pterm/pterm to v0.12.58 ([6d7e20e](https://github.com/podtato-head/podtato-head-app/commit/6d7e20e698108b091db827f26521071c35857d8e))
+* description of right leg ([6f55df0](https://github.com/podtato-head/podtato-head-app/commit/6f55df0ba89fe179ea60a3867614ca74bd7238b8))
+* renovate config ([f4feb8d](https://github.com/podtato-head/podtato-head-app/commit/f4feb8d73e3bbf7fdf98eb7b00bdebc770c33cdd))
+* semantic pr scopes ([e59c3e3](https://github.com/podtato-head/podtato-head-app/commit/e59c3e3644a47ff3a02fa3f9a778944a8410f3e6))
+
+
+### Other
+
+* **deps:** update amannn/action-semantic-pull-request action to v5.2.0 ([43a3dae](https://github.com/podtato-head/podtato-head-app/commit/43a3daeb302d86c01991dce101e9181d424a2c22))
+* **deps:** update anchore/sbom-action action to v0.13.4 ([84fe25c](https://github.com/podtato-head/podtato-head-app/commit/84fe25c8899093eb45a63db153cf8afa581949ca))
+* **deps:** update anchore/sbom-action action to v0.14.1 ([1869182](https://github.com/podtato-head/podtato-head-app/commit/18691825890c798bc84260e9cccd0826922df0e9))
+* **deps:** update golang docker tag to v1.20.3 ([99084d4](https://github.com/podtato-head/podtato-head-app/commit/99084d4e6dc111f588622c6e7028ce8f8679b4b1))
+* fix helm chart NOTES.txt ([31398e5](https://github.com/podtato-head/podtato-head-app/commit/31398e5bb2b665d337b3f26342ede8f072d3d4e6))
+* fix renaming of entry --&gt; frontend ([58f1d0b](https://github.com/podtato-head/podtato-head-app/commit/58f1d0b8812a03ef63d61fe93d34ee446bba46a5))
+
 ## [0.3.1](https://github.com/podtato-head/podtato-head-app/compare/v0.3.1...v0.3.1) (2023-03-16)
 
 
