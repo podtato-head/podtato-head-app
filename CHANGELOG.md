@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.3](https://github.com/podtato-head/podtato-head-app/compare/v0.3.2...v0.3.3) (2023-05-03)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/pterm/pterm to v0.12.59 ([5a94a71](https://github.com/podtato-head/podtato-head-app/commit/5a94a7179a3307cb6f09059c402e7566b10db1de))
+
+
+### Other
+
+* **deps:** update golang docker tag to v1.20.4 ([7e701a4](https://github.com/podtato-head/podtato-head-app/commit/7e701a487212a5672a57da02fe03b58ce86d1d33))
+
 ## [0.3.2](https://github.com/podtato-head/podtato-head-app/compare/v0.3.1...v0.3.2) (2023-04-12)
 
 
