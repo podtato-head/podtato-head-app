@@ -4,7 +4,6 @@ go 1.20
 
 require (
 	github.com/gorilla/mux v1.8.0
-	github.com/jarcoal/httpmock v1.3.0
 	github.com/prometheus/client_golang v1.14.0
 	github.com/pterm/pterm v0.12.59
 	github.com/urfave/cli/v3 v3.0.0-alpha2
