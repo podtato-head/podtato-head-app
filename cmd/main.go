@@ -33,6 +33,12 @@ func main() {
 				EnvVars:     []string{"PODTATO_STARTUP_DELAY"},
 				Destination: &p.StartUpDelay,
 			},
+			&urcli.StringFlag{
+				Name:        "secretMessage",
+				Value:       "",
+				EnvVars:     []string{"PODTATO_SECRET_MESSAGE"},
+				Destination: &p.SecretMessage,
+			},
 		},
 		Action: func(*urcli.Context) error {
 			execute()

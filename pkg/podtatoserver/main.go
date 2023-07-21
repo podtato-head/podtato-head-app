@@ -25,9 +25,10 @@ const (
 )
 
 type PodTatoServer struct {
-	Component    string
-	Port         string
-	StartUpDelay string
+	Component     string
+	Port          string
+	StartUpDelay  string
+	SecretMessage string
 }
 
 type TemplateData struct {
@@ -49,6 +50,7 @@ type TemplateData struct {
 	Hat              string
 	HatVersion       string
 	HatHostname      string
+	SecretMessage    string
 }
 
 func (p PodTatoServer) frontendHandler(w http.ResponseWriter, r *http.Request) {
@@ -87,6 +89,7 @@ func (p PodTatoServer) frontendHandler(w http.ResponseWriter, r *http.Request) {
 		Hostname:         hostname,
 		Daytime:          getDayTime(),
 		Version:          version.ServiceVersion(),
+		SecretMessage:    p.SecretMessage,
 	}
 
 	err = homeTemplate.Execute(w, tpl)

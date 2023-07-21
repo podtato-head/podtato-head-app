@@ -21,7 +21,7 @@
     <main class="container">
       <div class="text-center">
         <br />
-        <h1 data-toggle="tooltip" title="Some tooltip text!" >good {{ .Daytime }} from the <i>pod</i>tato head!</h1>
+        <h1 data-toggle="tooltip" title="{{ .SecretMessage }}" >good {{ .Daytime }} from the <i>pod</i>tato head!</h1>
         <div style="width:700px; height:800px; margin:auto; position:relative;">
           <img src="./assets/images/body/body.svg" style="position:absolute;margin-top:80px;margin-left:200px;" data-mdb-toggle="tooltip" title="Hi! I'm the frontend served by {{ .Hostname }}, Version: {{ .Version }}">
           <img src="data:image/svg+xml;base64,{{ .Hat }}" style="position:absolute;margin-left:200px;margin-top:0px;" data-mdb-toggle="tooltip" title="Hi! I'm the hat served by {{ .HatHostname }}, Version: {{ .HatVersion }}">
