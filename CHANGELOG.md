@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.3.3](https://github.com/podtato-head/podtato-head-app/compare/v0.3.2...v0.3.3) (2023-07-21)
+
+
+### Features
+
+* add PODTATO_SECRET_MESSAGE env var ([da5cf26](https://github.com/podtato-head/podtato-head-app/commit/da5cf264bfeafadc7152072e51f3bba34cae2d0c))
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/prometheus/client_golang to v1.16.0 ([4c68102](https://github.com/podtato-head/podtato-head-app/commit/4c68102c6665dd8c62a1753446cf5d9433dc27f4))
+* **deps:** update module github.com/pterm/pterm to v0.12.59 ([5a94a71](https://github.com/podtato-head/podtato-head-app/commit/5a94a7179a3307cb6f09059c402e7566b10db1de))
+* **deps:** update module github.com/pterm/pterm to v0.12.63 ([b3ce21e](https://github.com/podtato-head/podtato-head-app/commit/b3ce21e32aee73deb302a54f2e6408e8693ce4ec))
+
+
+### Other
+
+* **deps:** update anchore/sbom-action action to v0.14.3 ([85e7117](https://github.com/podtato-head/podtato-head-app/commit/85e711752360a3e62d96b29fa212827208608d6a))
+* **deps:** update golang docker tag to v1.20.4 ([7e701a4](https://github.com/podtato-head/podtato-head-app/commit/7e701a487212a5672a57da02fe03b58ce86d1d33))
+
 ## [0.3.2](https://github.com/podtato-head/podtato-head-app/compare/v0.3.1...v0.3.2) (2023-04-12)
 
 
