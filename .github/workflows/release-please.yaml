@@ -30,7 +30,7 @@ jobs:
     # Release-please creates a PR that tracks all changes
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - uses: google-github-actions/release-please-action@v3
         id: release
@@ -52,7 +52,7 @@ jobs:
       IMAGE_TAG: ghcr.io/podtato-head/podtato-server:${{ needs.release-please.outputs.tag_name }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
@@ -117,7 +117,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Attach release assets
         uses: softprops/action-gh-release@v1
         with:
