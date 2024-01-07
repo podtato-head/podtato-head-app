@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.3.4](https://github.com/podtato-head/podtato-head-app/compare/v0.3.3...v0.3.4) (2024-01-07)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/gorilla/mux to v1.8.1 ([2e089ee](https://github.com/podtato-head/podtato-head-app/commit/2e089eea1f0a3459ae323e4c28e61012dd3a354a))
+
+
+### Other
+
+* **deps:** update actions/checkout action to v4 ([b04a938](https://github.com/podtato-head/podtato-head-app/commit/b04a9384782650ab3bc1f20a1f5b2aba0b8f2d71))
+* **deps:** update actions/upload-artifact action to v4 ([8c73772](https://github.com/podtato-head/podtato-head-app/commit/8c73772d549d5bd9aec6dac821033c8661e0f3ae))
+* **deps:** update amannn/action-semantic-pull-request action to v5.4.0 ([8b856eb](https://github.com/podtato-head/podtato-head-app/commit/8b856ebe67f37473454896e02b05c76a29cfc24b))
+* **deps:** update anchore/sbom-action action to v0.15.2 ([0ba493f](https://github.com/podtato-head/podtato-head-app/commit/0ba493f51630f6aa5df1ecd95456bdbbd9fed76e))
+* **deps:** update docker/build-push-action action to v5 ([7d44fe4](https://github.com/podtato-head/podtato-head-app/commit/7d44fe4e6531592071dd19ab69db9ec4d00998b6))
+* **deps:** update docker/login-action action to v3 ([904f2aa](https://github.com/podtato-head/podtato-head-app/commit/904f2aa6f49d1d6ecbfd159cd4d3e2ea4897d962))
+* **deps:** update docker/setup-buildx-action action to v3 ([c74599e](https://github.com/podtato-head/podtato-head-app/commit/c74599e57588d1df1e6569a0279a3ac0e769b6e1))
+* **deps:** update google-github-actions/release-please-action action to v4 ([6c2b301](https://github.com/podtato-head/podtato-head-app/commit/6c2b301d4a3b0adc59718fa44c08779b69eb5322))
+
 ## [0.3.3](https://github.com/podtato-head/podtato-head-app/compare/v0.3.2...v0.3.3) (2023-07-21)
 
 

@@ -7,7 +7,7 @@ Podtato-head is a cloud-native application built to colorfully demonstrate deliv
 The Kubernetes manifest is located in the `deploy` folder. It can be deployed using `kubectl` or `kustomize`.
 
 <!---x-release-please-start-version-->
-> ```kubectl apply -f https://github.com/podtato-head/podtato-head-app/releases/download/v0.3.3/manifest.yaml```
+> ```kubectl apply -f https://github.com/podtato-head/podtato-head-app/releases/download/v0.3.4/manifest.yaml```
 <!---x-release-please-end-->
 
 ### Helm Chart
