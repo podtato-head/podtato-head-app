@@ -6,7 +6,7 @@ require (
 	github.com/gorilla/mux v1.8.1
 	github.com/prometheus/client_golang v1.16.0
 	github.com/pterm/pterm v0.12.63
-	github.com/urfave/cli/v3 v3.0.0-alpha2
+	github.com/urfave/cli/v3 v3.0.0-alpha9.1
 	gopkg.in/yaml.v3 v3.0.1
 )
 
