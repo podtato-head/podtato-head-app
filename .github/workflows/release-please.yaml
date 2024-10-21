@@ -97,7 +97,7 @@ jobs:
            helm push podtato-head-${{ steps.vars.outputs.version }}.tgz oci://ghcr.io/podtato-head/charts
 
       - name: Generate SBOM
-        uses: anchore/sbom-action@v0.15.2
+        uses: anchore/sbom-action@v0.17.5
         with:
           image: ${{ env.IMAGE_TAG }}
           artifact-name: sbom-${{ env.IMAGE_NAME }}
